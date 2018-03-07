@@ -8,7 +8,7 @@ def getGrayColor(rgb):
     return rgb[0]
 
 def setGrayColor(color):
-    return [color,color,color];
+    return [color,color,color]
 
 img = Image.open('Lena.png')
 img = numpy.asarray(img)
